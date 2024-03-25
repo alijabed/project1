@@ -1,0 +1,175 @@
+/*article start*/
+.article{
+	text-align: center;
+}
+.heading{
+	font-size: 40px;
+}
+.heading img, .project-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*article end*/
+
+/*User  Info Section Style Start*/
+.user-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    filter: saturate(0);
+}
+.user-info {
+    text-align: center;
+    padding: 60px 0;
+}
+.user-text h3 {
+    margin-bottom: 0;
+}
+.user-text p {
+    margin: 0;
+}
+/*User  Info Section Style End*/
+
+/*design trends start*/
+.design-trends {
+    width: 1140px;
+    margin: auto;
+    padding-left: 150px;
+    margin-bottom: 100px;
+}
+.pragraph1 p:nth-child(2) {
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 15px;
+    border-left: 2px solid #333;
+}
+mark {
+    background: green;
+    color: #fff;
+}
+/*design trends end*/
+
+/*class img*/
+
+.img{
+	text-align: center;
+}
+/*class img*/
+
+/*second pragraph*/
+.second-pragraph {
+    width: 800px;
+    margin: 100px auto;
+}
+.heading h3{
+	font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    background: gray;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*second pragraph*/
+
+/*inline-img*/
+
+.part-1, .part-2 {
+    width: 100%;
+    padding: 15px;
+    flex: 0 0 25%;
+}
+.part-1 img, .part-2 img {
+    width: 100%;
+}
+.part-3 {
+    width: 100%;
+    padding-left: 100px;
+    flex: 0 0 39%;
+}
+.related-article {
+    display: flex;
+    align-items: center;
+}
+.part-3 p {
+    margin-bottom: 50px;
+}
+/*inline-img*/
+
+/*form*/
+
+.Form {
+    padding: 60px 0;
+	text-align: center;
+}
+.inside-form {
+    width: 500px;
+    padding: 100px;
+    background: lightgray;
+    margin: auto;
+}
+.inside-form input,.inside-form textarea {
+    background: #ffffff52;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.message textarea {
+    width: 93%;
+    height: 120px;
+}
+.website input {
+    width: 93%;
+}
+.nameEmail input {
+    width: 43%;
+}
+.button {
+    text-align: left;
+}
+.button input {
+    background: gray;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*form*/
+
+/*logo*/
+
+.pragraph-line {
+    text-align: center;
+    padding: 40px;
+    color: lightgray;
+    font-weight: 600;
+}
+.picture-4 {
+    padding: 10px;
+    filter: saturate(0);
+}
+.picture-3 {
+    padding: 10px;
+    filter: saturate(0);
+}
+.picture-2 {
+    padding: 10px;
+    filter: saturate(0);
+}
+.picture-1 {
+    filter: saturate(0);
+    padding: 10px;
+}
+.logo-master {
+    padding: 50px;
+    background-color: whitesmoke;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
